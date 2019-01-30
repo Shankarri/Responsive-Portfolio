@@ -216,6 +216,7 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 980px) {
@@ -228,12 +229,18 @@ input[type=submit] {
   .main-section {
     max-width: 100%;
   }
-  .auth-image{
-    width: 50%
+  .auth-image, 
+  {
+    width: 50%;
     }
+  .work 
+  {
+    width: 45%;
+  }
  } 
  @media only screen and (max-width: 640px){
-  .auth-image{
+  .auth-image, .work 
+  {
    width: 100%
    }
    .main-section {
